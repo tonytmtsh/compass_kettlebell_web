@@ -1,0 +1,357 @@
+{
+  "tips": [
+    {"id": "tip_001", "text": "Own your hinge. Keep the bell close and your lats on.", "category": "training"},
+    {"id": "tip_002", "text": "Breathe behind the shield: brace, then move.", "category": "training"},
+    {"id": "tip_003", "text": "Start small: consistency beats intensity.", "category": "mindset"},
+    {"id": "tip_004", "text": "If your grip is failing early, drop the weight and earn cleaner reps.", "category": "training"},
+    {"id": "tip_005", "text": "Finish tall: glutes on, ribs down, eyes forward.", "category": "training"},
+    {"id": "tip_006", "text": "Two great reps beat ten sloppy reps.", "category": "mindset"},
+    {"id": "tip_007", "text": "If your shoulders shrug in the swing, pack the lats and keep the bell close.", "category": "training"},
+    {"id": "tip_008", "text": "Warm-up should raise readiness, not fatigue.", "category": "mindset"},
+    {"id": "tip_009", "text": "Nasal breathing in warm-ups can help you stay relaxed and organized.", "category": "mobility"},
+    {"id": "tip_010", "text": "For presses: squeeze the handle and keep your wrist stacked.", "category": "training"},
+    {"id": "tip_011", "text": "Treat rest like training: shake it out, breathe, and reset your setup.", "category": "mindset"},
+    {"id": "tip_012", "text": "If your low back feels the swing, make the hinge smaller and snap harder.", "category": "training"},
+    {"id": "tip_013", "text": "Don’t chase soreness. Chase repeatable training.", "category": "mindset"},
+    {"id": "tip_014", "text": "Protein is a lever: hit a consistent target first, then adjust carbs/fats.", "category": "nutrition"},
+    {"id": "tip_015", "text": "Hydration check: pale yellow is a simple daily anchor.", "category": "nutrition"},
+    {"id": "tip_016", "text": "If you’re tight in the hinge, try a slow exhale and reach your hips back.", "category": "mobility"},
+    {"id": "tip_017", "text": "For cleans: keep the bell close and let it roll around the hand, not slam.", "category": "training"},
+    {"id": "tip_018", "text": "Consistency beats novelty. Repeat the basics until they look effortless.", "category": "mindset"},
+    {"id": "tip_019", "text": "If you miss sessions, shrink the plan — never abandon the plan.", "category": "mindset"},
+    {"id": "tip_020", "text": "Walk 10 minutes after meals if you want an easy recovery and digestion win.", "category": "nutrition"}
+  ],
+  "clinics": [
+    {
+      "id": "clinic_swing",
+      "title": "Swing Clinic",
+      "description": "Technique-first swing fundamentals and fixes.",
+      "estimatedMinutes": 18
+    },
+    {
+      "id": "clinic_clean",
+      "title": "Clean Clinic",
+      "description": "A smoother rack and cleaner turnover without forearm bruises.",
+      "estimatedMinutes": 16
+    },
+    {
+      "id": "clinic_press",
+      "title": "Press Clinic",
+      "description": "Build a strong overhead press with stacked joints and a stable torso.",
+      "estimatedMinutes": 14
+    },
+    {
+      "id": "clinic_tgu",
+      "title": "Get-Up Clinic",
+      "description": "Own each position in the Turkish get-up with clean transitions.",
+      "estimatedMinutes": 20
+    }
+  ],
+  "programs": [
+    {
+      "id": "program_beginner",
+      "title": "Beginner Program",
+      "description": "Start here after the Swing Clinic.",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "days": [
+            {"dayNumber": 1, "workouts": ["workout_w1d1"]},
+            {"dayNumber": 2, "workouts": ["workout_w1d2"]},
+            {"dayNumber": 3, "workouts": ["workout_w1d3"]},
+            {"dayNumber": 4, "workouts": ["workout_w1d4"]},
+            {"dayNumber": 5, "workouts": ["workout_w1d5"]}
+          ]
+        },
+        {
+          "weekNumber": 2,
+          "days": [
+            {"dayNumber": 1, "workouts": ["workout_w2d1"]},
+            {"dayNumber": 2, "workouts": ["workout_w2d2"]},
+            {"dayNumber": 3, "workouts": ["workout_w2d3"]}
+          ]
+        },
+        {
+          "weekNumber": 3,
+          "days": [
+            {"dayNumber": 1, "workouts": ["workout_w3d1"]},
+            {"dayNumber": 2, "workouts": ["workout_w3d2"]},
+            {"dayNumber": 3, "workouts": ["workout_w3d3"]},
+            {"dayNumber": 4, "workouts": ["workout_w3d4"]},
+            {"dayNumber": 5, "workouts": ["workout_w3d5"]}
+          ]
+        }
+      ]
+    }
+  ],
+  "workouts": [
+    {
+      "id": "clinic_swing",
+      "title": "Swing Clinic",
+      "description": "Technique-first swing fundamentals and fixes.",
+      "steps": [
+        {"type": "instruction", "title": "Goal", "text": "Build a crisp hinge and a consistent swing arc. Quality > volume."},
+        {"type": "instruction", "title": "Setup", "text": "Feet about shoulder width, ribs down, lats on. Hike like a football snap."},
+        {"type": "instruction", "title": "Key cues", "text": "Hinge (don’t squat). Snap the hips. Arms are hooks. Bell stays close."},
+        {"type": "instruction", "title": "Common fixes", "text": "If the bell is pulling you forward: hike harder and pack the lats. If you’re squatting: push hips back and keep shins more vertical."},
+        {"type": "log_prompt", "title": "Log", "text": "What cue helped most? What will you focus on next time?"}
+      ]
+    },
+    {
+      "id": "clinic_clean",
+      "title": "Clean Clinic",
+      "description": "A smooth clean that lands quietly in the rack.",
+      "steps": [
+        {"type": "instruction", "title": "Goal", "text": "Reduce impact on the forearm by keeping the bell close and guiding the handle."},
+        {"type": "instruction", "title": "Warm-up", "text": "2 minutes: arm swings, wrist circles, halos (light)."},
+        {"type": "instruction", "title": "Drill", "text": "5 minutes: dead clean to rack (slow), focus on the hand insertion."},
+        {"type": "instruction", "title": "Practice", "text": "6 sets of 5 cleans per side. Stop if the bell is slapping."},
+        {"type": "log_prompt", "title": "Log", "text": "What fixed the clean today? (handle angle, elbow path, or timing)"}
+      ]
+    },
+    {
+      "id": "clinic_press",
+      "title": "Press Clinic",
+      "description": "Stacked wrist/elbow/shoulder with a stable ribcage.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "2 minutes: shoulder circles, scap push-ups, light rack holds."},
+        {"type": "instruction", "title": "Setup", "text": "Rack position: forearm vertical, wrist stacked, elbow slightly in front of ribs."},
+        {"type": "instruction", "title": "Press practice", "text": "5 sets of 5 presses per side. Exhale through the sticking point."},
+        {"type": "instruction", "title": "Optional", "text": "If it feels good: 2 sets of 8 slow negatives per side."},
+        {"type": "log_prompt", "title": "Log", "text": "Log weight and the hardest rep. What did you do to stay stacked?"}
+      ]
+    },
+    {
+      "id": "clinic_tgu",
+      "title": "Get-Up Clinic",
+      "description": "Own each position in the Turkish get-up with clean transitions.",
+      "steps": [
+        {"type": "instruction", "title": "Goal", "text": "Treat the get-up as a sequence of strong positions. Move slow enough to stay in control."},
+        {"type": "instruction", "title": "Warm-up", "text": "2 minutes: shoulder circles, hip openers, and a few unloaded get-up reps."},
+        {"type": "instruction", "title": "Positions", "text": "Fetal → Tall sit → High bridge → Sweep to lunge → Stand. Pause 2 breaths at each stop."},
+        {"type": "instruction", "title": "Practice", "text": "3 rounds: 1 get-up per side. Rest and reset between sides."},
+        {"type": "log_prompt", "title": "Log", "text": "Which position felt weakest today? (tall sit / bridge / sweep / lunge / stand)"}
+      ]
+    },
+    {
+      "id": "workout_w1d1",
+      "title": "Week 1 • Day 1",
+      "description": "Hinge pattern + simple swing practice.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "3 minutes: hip hinge drill + glute bridge + 5 slow deadlifts with the bell."},
+        {"type": "instruction", "title": "Main", "text": "10 sets of 10 two-hand swings. Rest 45–75s. Stop 1–2 reps before form breaks."},
+        {"type": "instruction", "title": "Optional", "text": "If you feel fresh: suitcase carry 3 x 30–45s per side."},
+        {"type": "log_prompt", "title": "Log", "text": "Bell weight, total sets completed, and a 1–10 effort rating."}
+      ]
+    },
+    {
+      "id": "workout_w1d2",
+      "title": "Week 1 • Day 2",
+      "description": "Technique review + bracing + light rack work.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "2 minutes: 4-count inhale / 6-count exhale, then 5 braced hinges."},
+        {"type": "instruction", "title": "Main", "text": "8 sets of 10 swings. Between sets: 1 slow exhale + reset the stance."},
+        {"type": "instruction", "title": "Accessory", "text": "Rack hold 4 x 20–30s per side (light). Keep ribs down."},
+        {"type": "log_prompt", "title": "Log", "text": "What cue did you use most today? Any form breakdown?"}
+      ]
+    },
+    {
+      "id": "workout_w1d3",
+      "title": "Week 1 • Day 3",
+      "description": "Repeat + build confidence.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "3 minutes: mobility + 2 x 10 dead-stop swings (light)."},
+        {"type": "instruction", "title": "Main", "text": "12 sets of 8 swings. Rest 45–75s. Focus on a quiet hike + tall finish."},
+        {"type": "instruction", "title": "Cooldown", "text": "2 minutes: easy hamstring stretch + slow breathing."},
+        {"type": "log_prompt", "title": "Log", "text": "What improved since Day 1? What still feels awkward?"}
+      ]
+    },
+    {
+      "id": "workout_w1d4",
+      "title": "Week 1 • Day 4",
+      "description": "Clean practice + light press work.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "2 minutes: halos (light), rack holds, and wrist circles."},
+        {"type": "instruction", "title": "Main", "text": "6 sets of 5 cleans per side. Smooth turnover—no forearm slap."},
+        {"type": "instruction", "title": "Accessory", "text": "3 sets of 5 presses per side (light). Stay stacked."},
+        {"type": "log_prompt", "title": "Log", "text": "Log weights used and a note on clean quality (quiet/rough)."}
+      ]
+    },
+    {
+      "id": "workout_w1d5",
+      "title": "Week 1 • Day 5",
+      "description": "Density swings (easy) + carries.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "3 minutes: hinge drill + 5 slow goblet squats (light)."},
+        {"type": "instruction", "title": "Main", "text": "10-minute density: 10 swings every minute (EMOM). Keep it crisp and easy."},
+        {"type": "instruction", "title": "Carry", "text": "Suitcase carry 4 x 30–45s per side. Tall posture, slow steps."},
+        {"type": "log_prompt", "title": "Log", "text": "How did the EMOM feel? (easy/moderate/hard). Any grip notes?"}
+      ]
+    },
+    {
+      "id": "workout_w2d1",
+      "title": "Week 2 • Day 1",
+      "description": "Build swing volume + add light clean practice.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "3 minutes: hip hinge drill, glute bridges, and 2 x 10 dead-stop swings (light)."},
+        {"type": "instruction", "title": "Main", "text": "12 sets of 10 swings. Rest 45–75s. Every rep should look the same."},
+        {"type": "instruction", "title": "Skill", "text": "5 sets of 3 cleans per side (light). Quiet rack."},
+        {"type": "log_prompt", "title": "Log", "text": "Swing sets completed + one clean cue that worked."}
+      ]
+    },
+    {
+      "id": "workout_w2d2",
+      "title": "Week 2 • Day 2",
+      "description": "Press technique + easy swings.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "2 minutes: halos (light), rack holds, and 5 slow presses (very light)."},
+        {"type": "instruction", "title": "Main", "text": "5 sets of 5 presses per side (moderate). Rest as needed. Stay stacked."},
+        {"type": "instruction", "title": "Finisher", "text": "6 sets of 10 swings (easy). Crisp reps, no grind."},
+        {"type": "log_prompt", "title": "Log", "text": "Press weight + hardest rep + shoulder feel (good/iffy)."}
+      ]
+    },
+    {
+      "id": "workout_w2d3",
+      "title": "Week 2 • Day 3",
+      "description": "Density day: swings + carries.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "3 minutes: hinge drill + short walk + 10 easy swings."},
+        {"type": "instruction", "title": "Main", "text": "12-minute density: 8 swings every minute (EMOM). Keep it easy and sharp."},
+        {"type": "instruction", "title": "Carry", "text": "Farmer carry (two bells if available) 6 x 30–45s with full recovery."},
+        {"type": "log_prompt", "title": "Log", "text": "How steady was pace? Any grip/low back notes?"}
+      ]
+    },
+    {
+      "id": "workout_w3d1",
+      "title": "Week 3 • Day 1",
+      "description": "Progress swing volume + maintain clean technique.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "3 minutes: hinge drill + 2 x 10 dead-stop swings (light)."},
+        {"type": "instruction", "title": "Main", "text": "14 sets of 10 swings. Rest 45–75s. Keep it crisp — no grind reps."},
+        {"type": "instruction", "title": "Skill", "text": "6 sets of 3 cleans per side (light/moderate). Quiet rack."},
+        {"type": "log_prompt", "title": "Log", "text": "Swing quality (1–10) + what you did to keep reps identical."}
+      ]
+    },
+    {
+      "id": "workout_w3d2",
+      "title": "Week 3 • Day 2",
+      "description": "Press ladders + easy swings.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "2 minutes: halos (light), rack holds, and 5 very light presses."},
+        {"type": "instruction", "title": "Main", "text": "Press ladder x 3 rounds: 1-2-3 per side. Rest 60–90s between rungs."},
+        {"type": "instruction", "title": "Swings", "text": "6 sets of 10 swings (easy). Focus on hinge and float."},
+        {"type": "log_prompt", "title": "Log", "text": "Press weight + which rung got shaky + shoulder notes."}
+      ]
+    },
+    {
+      "id": "workout_w3d3",
+      "title": "Week 3 • Day 3",
+      "description": "Get-up practice + carries.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "3 minutes: shoulder prep + hip openers + 1 unloaded get-up per side."},
+        {"type": "instruction", "title": "Main", "text": "4 rounds: 1 get-up per side. Pause at each position. Move slow."},
+        {"type": "instruction", "title": "Carry", "text": "Suitcase carry 4 x 30–45s per side. Tall posture."},
+        {"type": "log_prompt", "title": "Log", "text": "Which get-up position was hardest today? Any wrist/shoulder notes?"}
+      ]
+    },
+    {
+      "id": "workout_w3d4",
+      "title": "Week 3 • Day 4",
+      "description": "Swing density (easy) + clean practice.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "3 minutes: hinge drill + 10 easy swings + 5 light cleans per side."},
+        {"type": "instruction", "title": "Main", "text": "14-minute density: 8 swings every minute (EMOM). Easy pace."},
+        {"type": "instruction", "title": "Skill", "text": "5 sets of 4 cleans per side (light). Quiet turnover."},
+        {"type": "log_prompt", "title": "Log", "text": "How consistent was the EMOM? Any clean slap today?"}
+      ]
+    },
+    {
+      "id": "workout_w3d5",
+      "title": "Week 3 • Day 5",
+      "description": "Recovery session: technique + light movement.",
+      "steps": [
+        {"type": "instruction", "title": "Warm-up", "text": "5 minutes easy walk or bike. Then 5 slow hinges."},
+        {"type": "instruction", "title": "Technique", "text": "6 sets of 8 swings (very easy). Stop before any fatigue shows."},
+        {"type": "instruction", "title": "Mobility", "text": "5 minutes: hips + hamstrings + t-spine. Slow breathing."},
+        {"type": "log_prompt", "title": "Log", "text": "How do you feel right now vs when you started? (better/same/worse)"}
+      ]
+    }
+  ],
+  "foods": [
+    {"id": "food_001", "name": "Greek Yogurt (plain)", "serving": "170g", "calories": 100, "protein": 17, "carbs": 6, "fat": 0},
+    {"id": "food_002", "name": "Chicken Breast (cooked)", "serving": "100g", "calories": 165, "protein": 31, "carbs": 0, "fat": 3.6},
+    {"id": "food_003", "name": "White Rice (cooked)", "serving": "1 cup", "calories": 205, "protein": 4.3, "carbs": 45, "fat": 0.4},
+    {"id": "food_004", "name": "Eggs (whole)", "serving": "2 large", "calories": 140, "protein": 12, "carbs": 1, "fat": 10},
+    {"id": "food_005", "name": "Oats (dry)", "serving": "40g", "calories": 150, "protein": 5, "carbs": 27, "fat": 3},
+    {"id": "food_006", "name": "Banana", "serving": "1 medium", "calories": 105, "protein": 1.3, "carbs": 27, "fat": 0.3},
+    {"id": "food_007", "name": "Apple", "serving": "1 medium", "calories": 95, "protein": 0.5, "carbs": 25, "fat": 0.3},
+    {"id": "food_008", "name": "Blueberries", "serving": "140g", "calories": 80, "protein": 1, "carbs": 21, "fat": 0.5},
+    {"id": "food_009", "name": "Whey Protein Powder", "serving": "1 scoop", "calories": 120, "protein": 24, "carbs": 3, "fat": 2},
+    {"id": "food_010", "name": "Cottage Cheese (2%)", "serving": "1 cup", "calories": 180, "protein": 24, "carbs": 8, "fat": 5},
+    {"id": "food_011", "name": "Salmon (cooked)", "serving": "100g", "calories": 208, "protein": 22, "carbs": 0, "fat": 13},
+    {"id": "food_012", "name": "Ground Beef (90% lean, cooked)", "serving": "100g", "calories": 240, "protein": 26, "carbs": 0, "fat": 15},
+    {"id": "food_013", "name": "Sweet Potato (baked)", "serving": "200g", "calories": 180, "protein": 4, "carbs": 41, "fat": 0.3},
+    {"id": "food_014", "name": "Broccoli", "serving": "150g", "calories": 50, "protein": 4, "carbs": 10, "fat": 0.6},
+    {"id": "food_015", "name": "Spinach", "serving": "85g", "calories": 20, "protein": 2.5, "carbs": 3, "fat": 0.2},
+    {"id": "food_016", "name": "Black Beans (cooked)", "serving": "1/2 cup", "calories": 114, "protein": 7.5, "carbs": 20, "fat": 0.5},
+    {"id": "food_017", "name": "Almonds", "serving": "28g", "calories": 164, "protein": 6, "carbs": 6, "fat": 14},
+    {"id": "food_018", "name": "Peanut Butter", "serving": "2 tbsp", "calories": 190, "protein": 8, "carbs": 7, "fat": 16},
+    {"id": "food_019", "name": "Avocado", "serving": "100g", "calories": 160, "protein": 2, "carbs": 9, "fat": 15},
+    {"id": "food_020", "name": "Olive Oil", "serving": "1 tbsp", "calories": 119, "protein": 0, "carbs": 0, "fat": 13.5},
+    {"id": "food_021", "name": "Cheddar Cheese", "serving": "28g", "calories": 113, "protein": 7, "carbs": 0.4, "fat": 9.3},
+    {"id": "food_022", "name": "Whole Milk", "serving": "1 cup", "calories": 150, "protein": 8, "carbs": 12, "fat": 8},
+    {"id": "food_023", "name": "Pasta (cooked)", "serving": "1 cup", "calories": 220, "protein": 8, "carbs": 43, "fat": 1.3},
+    {"id": "food_024", "name": "Tortilla (flour)", "serving": "1 medium", "calories": 140, "protein": 4, "carbs": 24, "fat": 4},
+    {"id": "food_025", "name": "Protein Bar", "serving": "1 bar", "calories": 200, "protein": 20, "carbs": 23, "fat": 7},
+    {"id": "food_026", "name": "Honey", "serving": "1 tbsp", "calories": 64, "protein": 0.1, "carbs": 17, "fat": 0},
+    {"id": "food_027", "name": "Butter", "serving": "1 tbsp", "calories": 102, "protein": 0.1, "carbs": 0, "fat": 11.5},
+    {"id": "food_028", "name": "Turkey Breast (deli)", "serving": "85g", "calories": 90, "protein": 17, "carbs": 2, "fat": 1},
+    {"id": "food_029", "name": "Tuna (canned in water)", "serving": "1 can", "calories": 120, "protein": 26, "carbs": 0, "fat": 1},
+    {"id": "food_030", "name": "Sardines", "serving": "1 can", "calories": 190, "protein": 22, "carbs": 0, "fat": 11},
+    {"id": "food_031", "name": "Tofu (firm)", "serving": "150g", "calories": 170, "protein": 18, "carbs": 4, "fat": 10},
+    {"id": "food_032", "name": "Tempeh", "serving": "100g", "calories": 190, "protein": 20, "carbs": 9, "fat": 11},
+    {"id": "food_033", "name": "Lentils (cooked)", "serving": "1 cup", "calories": 230, "protein": 18, "carbs": 40, "fat": 1},
+    {"id": "food_034", "name": "Chickpeas (cooked)", "serving": "1 cup", "calories": 270, "protein": 14, "carbs": 45, "fat": 4},
+    {"id": "food_035", "name": "Quinoa (cooked)", "serving": "1 cup", "calories": 222, "protein": 8, "carbs": 39, "fat": 3.6},
+    {"id": "food_036", "name": "Brown Rice (cooked)", "serving": "1 cup", "calories": 216, "protein": 5, "carbs": 45, "fat": 1.8},
+    {"id": "food_037", "name": "Potato (baked)", "serving": "300g", "calories": 280, "protein": 7, "carbs": 63, "fat": 0.4},
+    {"id": "food_038", "name": "Carrots", "serving": "100g", "calories": 41, "protein": 0.9, "carbs": 10, "fat": 0.2},
+    {"id": "food_039", "name": "Bell Pepper", "serving": "150g", "calories": 45, "protein": 1.5, "carbs": 9, "fat": 0.4},
+    {"id": "food_040", "name": "Onion", "serving": "100g", "calories": 40, "protein": 1.1, "carbs": 9.3, "fat": 0.1},
+    {"id": "food_041", "name": "Tomato", "serving": "180g", "calories": 32, "protein": 1.6, "carbs": 7, "fat": 0.4},
+    {"id": "food_042", "name": "Cucumber", "serving": "150g", "calories": 24, "protein": 1, "carbs": 5, "fat": 0.2},
+    {"id": "food_043", "name": "Mixed Salad Greens", "serving": "85g", "calories": 15, "protein": 1, "carbs": 3, "fat": 0.2},
+    {"id": "food_044", "name": "Romaine Lettuce", "serving": "85g", "calories": 15, "protein": 1, "carbs": 3, "fat": 0.2},
+    {"id": "food_045", "name": "Strawberries", "serving": "150g", "calories": 50, "protein": 1, "carbs": 12, "fat": 0.5},
+    {"id": "food_046", "name": "Orange", "serving": "1 medium", "calories": 62, "protein": 1.2, "carbs": 15.4, "fat": 0.2},
+    {"id": "food_047", "name": "Grapes", "serving": "150g", "calories": 104, "protein": 1.1, "carbs": 27, "fat": 0.2},
+    {"id": "food_048", "name": "Peanut (dry roasted)", "serving": "28g", "calories": 166, "protein": 7, "carbs": 6, "fat": 14},
+    {"id": "food_049", "name": "Cashews", "serving": "28g", "calories": 157, "protein": 5, "carbs": 9, "fat": 12},
+    {"id": "food_050", "name": "Walnuts", "serving": "28g", "calories": 185, "protein": 4.3, "carbs": 4, "fat": 18.5},
+    {"id": "food_051", "name": "Chia Seeds", "serving": "28g", "calories": 137, "protein": 4.4, "carbs": 12, "fat": 8.6},
+    {"id": "food_052", "name": "Flaxseed", "serving": "14g", "calories": 75, "protein": 2.6, "carbs": 4, "fat": 6},
+    {"id": "food_053", "name": "Hummus", "serving": "60g", "calories": 166, "protein": 5, "carbs": 14, "fat": 10},
+    {"id": "food_054", "name": "Pita Bread", "serving": "1 medium", "calories": 165, "protein": 6, "carbs": 33, "fat": 1},
+    {"id": "food_055", "name": "Bread (whole wheat)", "serving": "2 slices", "calories": 200, "protein": 8, "carbs": 36, "fat": 3},
+    {"id": "food_056", "name": "Bagel", "serving": "1 bagel", "calories": 270, "protein": 10, "carbs": 53, "fat": 1.5},
+    {"id": "food_057", "name": "Granola", "serving": "50g", "calories": 220, "protein": 5, "carbs": 33, "fat": 8},
+    {"id": "food_058", "name": "Cereal (corn flakes)", "serving": "1 cup", "calories": 100, "protein": 2, "carbs": 24, "fat": 0.2},
+    {"id": "food_059", "name": "Skim Milk", "serving": "1 cup", "calories": 90, "protein": 8, "carbs": 12, "fat": 0.2},
+    {"id": "food_060", "name": "Almond Milk (unsweetened)", "serving": "1 cup", "calories": 30, "protein": 1, "carbs": 1, "fat": 2.5},
+    {"id": "food_061", "name": "Yogurt (flavored)", "serving": "170g", "calories": 150, "protein": 12, "carbs": 20, "fat": 2},
+    {"id": "food_062", "name": "Ice Cream", "serving": "1/2 cup", "calories": 140, "protein": 2.5, "carbs": 16, "fat": 7},
+    {"id": "food_063", "name": "Dark Chocolate", "serving": "28g", "calories": 170, "protein": 2, "carbs": 13, "fat": 12},
+    {"id": "food_064", "name": "Coffee (black)", "serving": "12 oz", "calories": 5, "protein": 0, "carbs": 0, "fat": 0},
+    {"id": "food_065", "name": "Soda (regular)", "serving": "12 oz", "calories": 140, "protein": 0, "carbs": 39, "fat": 0},
+    {"id": "food_066", "name": "Sparkling Water", "serving": "12 oz", "calories": 0, "protein": 0, "carbs": 0, "fat": 0},
+    {"id": "food_067", "name": "Orange Juice", "serving": "1 cup", "calories": 110, "protein": 2, "carbs": 26, "fat": 0.5},
+    {"id": "food_068", "name": "Beer", "serving": "12 oz", "calories": 150, "protein": 2, "carbs": 13, "fat": 0},
+    {"id": "food_069", "name": "Wine", "serving": "5 oz", "calories": 125, "protein": 0.1, "carbs": 4, "fat": 0},
+    {"id": "food_070", "name": "Tortilla Chips", "serving": "28g", "calories": 140, "protein": 2, "carbs": 18, "fat": 7},
+    {"id": "food_071", "name": "Salsa", "serving": "125g", "calories": 35, "protein": 1.5, "carbs": 8, "fat": 0.2},
+    {"id": "food_072", "name": "Guacamole", "serving": "60g", "calories": 100, "protein": 1.5, "carbs": 6, "fat": 8},
+    {"id": "food_073", "name": "Pizza (cheese)", "serving": "1 slice", "calories": 285, "protein": 12, "carbs": 36, "fat": 10},
+    {"id": "food_074", "name": "Burger (single patty)", "serving": "1 burger", "calories": 450, "protein": 25, "carbs": 33, "fat": 24},
+    {"id": "food_075", "name": "French Fries", "serving": "medium", "calories": 365, "protein": 4, "carbs": 48, "fat": 17}
+  ]
+}
